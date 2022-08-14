@@ -4,16 +4,42 @@
     <meta charset="utf-8">
     <link rel="stylesheet" href="https://unpkg.com/sakura.css/css/sakura-pink.css" type="text/css">
     <title>Celeste Sophia Dahl</title>
+    <style>
+      html { 
+        background: url(sakura_vector.jpg) no-repeat center center fixed; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+      }
+      body {
+	text-align: center;
+        border-style: solid;
+      }
+      #photo {
+        max-width: 400px;
+      }
+      footer a {
+        color: pink;
+	font-size: 12px;
+      }
+      footer a:visited {
+	color: pink;
+      }
+    </style>
   </head>
   <body>
-    <h1>Celeste Sophia Dahl</h1>
+    <h1 id="name">Celeste Sophia Dahl</h1>
     <div>
       <p>Welcome to my Work-in-Progress landing page!</p>
       <p>Right now all I have is a resumé &gt;_&lt; more to come soon!</p>
       <ul>
         <li><a href="resume.pdf">Resumé</a></li>
       </ul>
-      <img src="landing.jpg">
+      <img id="photo" src="landing.jpg">
     </div>
   </body>
+  <footer>
+    <a href="https://www.vecteezy.com/free-vector/cherry-blossom-background">Cherry Blossom Background Vectors by Vecteezy</a>
+  </footer>
 </html>
